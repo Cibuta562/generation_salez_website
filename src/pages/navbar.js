@@ -1,7 +1,5 @@
 import './navbar.css'
 import React from 'react';
-import contact from '../assets/email.png'
-import {Link} from "react-router-dom";
 
 const z = "Zero Risk"
 
