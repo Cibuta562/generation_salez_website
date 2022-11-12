@@ -66,7 +66,7 @@ function Navbar () {
                 </li>
 
 
-                <li className="nav-item">
+                <li className="nav-item" style={{marginTop: "0px"}}>
                     <a href="#" className="nav-link">
                         <h1 className="link-icon">Z</h1>
                         <span className="link-text">Investments</span>

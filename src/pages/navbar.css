@@ -113,14 +113,14 @@
     .link-icon{
         color: white;
         font-family: BlackOpsOne;
-        padding:10px 20px;
+        padding: 10px 10px;
         font-size: 36px;
     }
 
     .navbar {
         bottom: 0;
-        width: 100vw;
-        height: 5rem;
+        width: 100%;
+        height: 6.5rem;
     }
 
     .logo {
