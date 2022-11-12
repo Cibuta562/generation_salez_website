@@ -73,12 +73,12 @@ function Navbar () {
                     </a>
                 </li>
 
-                <li className="nav-item" id="themeButton">
-                    <a href="#" className="nav-link">
-                        {/*<img className="contact-img" src={contact}/>*/}
-                        <span className="link-text">Contact</span>
-                    </a>
-                </li>
+                {/*<li className="nav-item" id="themeButton">*/}
+                {/*    <a href="#" className="nav-link">*/}
+                {/*        /!*<img className="contact-img" src={contact}/>*!/*/}
+                {/*        <span className="link-text">Contact</span>*/}
+                {/*    </a>*/}
+                {/*</li>*/}
             </ul>
         </nav>
     )
