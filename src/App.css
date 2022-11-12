@@ -48,6 +48,7 @@
 
   .progress{
     width: 250px;
+    padding-bottom: 50px;
   }
 
   .h1-main{
@@ -57,7 +58,7 @@
   .App-header {
     justify-content: normal;
     padding-top: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 200px;
   }
 
 }
