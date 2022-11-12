@@ -69,7 +69,7 @@ function Navbar () {
                 <li className="nav-item">
                     <a href="#" className="nav-link">
                         <h1 className="link-icon">Z</h1>
-                        <span className="link-text">{z}</span>
+                        <span className="link-text">Investments</span>
                     </a>
                 </li>
 

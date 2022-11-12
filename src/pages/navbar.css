@@ -92,8 +92,9 @@
 {
     display: inline;
     position: absolute;
-    left: -999px;
+    left: -950px;
     transition: 0.3s;
+    padding: 20px;
 }
 
 .contact-img {
