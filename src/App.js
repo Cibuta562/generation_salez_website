@@ -8,20 +8,21 @@ function App() {
     <div className="App">
       <Navbar></Navbar>
         <div>
-      <header className="App-header">
-          <h1 className="h1-main">Coming Soon</h1>
-        <img src={logo} style={{height: "300px"}} alt="logo" />
-          <div className="progress">
-          <ProgressBar width={600} height={45} baseBgColor="white" labelColor="#FFD744" bgColor="#FFD744" borderRadius={5} completed={20}/>
-              <div className="percentage-flex">
-              <span className="percentage-progress">0%</span>
-              <span className="percentage-progress">100%</span>
-              </div>
-          </div>
-          <div className="send-to-insta">
+            <header className="App-header">
+                <h1 className="h1-main">Coming Soon</h1>
+                <img src={logo} style={{height: "300px"}} alt="logo"/>
+                <div className="progress">
+                    <ProgressBar width='100%' height={45} baseBgColor="white" labelColor="#FFD744" bgColor="#FFD744"
+                                 borderRadius={5} completed={20}/>
+                    <div className="percentage-flex">
+                        <span className="percentage-progress">0%</span>
+                        <span className="percentage-progress">100%</span>
+                    </div>
+                </div>
+                <div className="send-to-insta">
 
-          </div>
-      </header>
+                </div>
+            </header>
         </div>
     </div>
   );

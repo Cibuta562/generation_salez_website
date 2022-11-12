@@ -6,6 +6,7 @@
   font-family: BlackOpsOne;
   padding-top: 40px;
   font-size: 24px;
+  width: 450px;
 }
 
 .percentage-progress{
@@ -39,6 +40,25 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .progress{
+    width: 250px;
+  }
+
+  .h1-main{
+    font-size: 40px;
+  }
+
+  .App-header{
+    justify-content: normal;
+    padding-top: 110px;
+  }
+
 }
 
 
