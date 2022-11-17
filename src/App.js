@@ -1,5 +1,6 @@
 import logo from './logo.png';
 import './App.css';
+import './pages/navbar.css'
 import Navbar from "./pages/navbar";
 import ProgressBar from "@ramonak/react-progress-bar";
 

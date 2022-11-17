@@ -34,11 +34,13 @@
     transition: 0.7s;
 }
 
+
 .nav-link:hover {
     filter: grayscale(0%) opacity(1);
-    background: var(--bg-secondary);
-    color: var(--text-secondary);
+    background: rgba(0, 0, 0, 0.72);
+    color: #FFD744;
 }
+
 
 .link-text {
     display: none;
@@ -54,8 +56,9 @@
     font-size: 40px;
 }
 
-.link-icon:hover{
+.nav-link:hover .link-icon{
     color: #FFD744;
+    transition: 0.7s;
 }
 
 .nav-link svg {

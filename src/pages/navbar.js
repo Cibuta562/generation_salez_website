@@ -1,5 +1,7 @@
 import './navbar.css'
 import React from 'react';
+import {Link} from "react-router-dom";
+
 
 const z = "Zero Risk"
 
@@ -37,17 +39,17 @@ function Navbar () {
                 </li>
 
                 <li className="nav-item">
-                    <a href="#" className="nav-link">
+                    <Link to="/s" className="nav-link">
                         <h1 className="link-icon">S</h1>
                         <span className="link-text">Services</span>
-                    </a>
+                    </Link>
                 </li>
 
                 <li className="nav-item">
-                        <a href="#" className="nav-link">
+                        <Link to="/a" href="#" className="nav-link">
                             <h1 className="link-icon">A</h1>
                             <span className="link-text">Clients</span>
-                        </a>
+                        </Link>
                 </li>
 
                 <li className="nav-item">
