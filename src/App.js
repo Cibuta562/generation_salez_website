@@ -10,7 +10,7 @@ function App() {
       <Navbar></Navbar>
         <div>
             <header className="App-header">
-                <h1 className="h1-main">Coming Soon</h1>
+                <h1 className="h1-main">Mike soon</h1>
                 <img src={logo} style={{height: "300px"}} alt="logo"/>
                 <div className="progress">
                     <ProgressBar width='100%' height={45} baseBgColor="white" labelColor="#FFD744" bgColor="#FFD744"
