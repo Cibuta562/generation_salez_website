@@ -1,5 +1,5 @@
 import Navbar from './navbar';
-import { useState } from 'react';
+import {useRef, useState} from 'react';
 import './contact.css';
 import * as emailjs from "@emailjs/browser"; // Import your existing CSS file
 
@@ -13,8 +13,8 @@ function Contact() {
     });
 
     const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData({ ...formData, [name]: value });
+        const {name, value} = e.target;
+        setFormData({...formData, [name]: value});
     };
 
     // const handleSubmit = (e) => {
@@ -43,10 +43,11 @@ function Contact() {
             }, (error) => {
                 console.log(error.text);
             });
+    }
 
     return (
         <div>
-            <Navbar />
+            <Navbar/>
             <div>
                 <header className="App-header">
                     <h1 className="h1-main">Contact Page</h1>
@@ -123,3 +124,4 @@ function Contact() {
 }
 
 export default Contact;
+
