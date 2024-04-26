@@ -1,0 +1,37 @@
+
+
+
+@media only screen and (max-width: 600px) {
+    .to-screen{
+        position: fixed;
+        margin-top: 20px;
+        top: +20px;
+        width: 100%;
+        background-color: #FFD744;;
+        height: 20px;
+    }
+
+    .contact-top-text{
+        font-family: BlackOpsOne;
+        margin: 0;
+        background-color: #000000;;
+        padding: 10px;
+        color: white;
+        font-size: 19px;
+        border-bottom: solid white 1px;
+    }
+}
+
+
+@media only screen and (min-width: 601px) {
+    .to-screen{
+        display: none;
+        opacity: 0;
+    }
+
+    .contact-top-text{
+        display: none;
+        opacity: 0;
+    }
+}
+

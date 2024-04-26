@@ -48,14 +48,14 @@ function Navbar () {
                 <li className="nav-item">
                         <Link to="/a" href="#" className="nav-link">
                             <h1 className="link-icon">A</h1>
-                            <span className="link-text">Clients</span>
+                            <span className="link-text">Advantages</span>
                         </Link>
                 </li>
 
                 <li className="nav-item">
-                        <a href="#" className="nav-link">
+                        <a href="/l" className="nav-link">
                             <h1 className="link-icon">L</h1>
-                            <span className="link-text">Advantages</span>
+                            <span className="link-text">Long-term</span>
                         </a>
                 </li>
 
@@ -71,7 +71,7 @@ function Navbar () {
                 <li className="nav-item" style={{marginTop: "0px"}}>
                     <a href="#" className="nav-link">
                         <h1 className="link-icon">Z</h1>
-                        <span className="link-text">Investments</span>
+                        <span className="link-text">Zero risk</span>
                     </a>
                 </li>
 
