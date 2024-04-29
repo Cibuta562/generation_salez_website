@@ -47,12 +47,12 @@
     margin-left: 1rem;
     color: white;
     opacity: 0;
-    font-family: BlackOpsOne;
+    font-family: Lato, sans-serif;
 }
 
 .link-icon{
     color: white;
-    font-family: BlackOpsOne;
+    font-family: Lato, sans-serif;
     padding: 25px;
     font-size: 40px;
 }
@@ -112,8 +112,8 @@
 @media only screen and (max-width: 600px) {
     .link-icon{
         color: white;
-        font-family: BlackOpsOne;
-        padding: 10px 10px;
+        font-family: Lato, sans-serif;
+        padding: 5px 5px;
         font-size: 36px;
     }
 
@@ -128,6 +128,7 @@
         margin-top: 15px;
         margin-right: 0;
         pointer-events: none;
+        display: none;
     }
 
     .navbar-nav {
@@ -138,7 +139,7 @@
     .nav-link {
         justify-content: center;
         height: 40px;
-        width: 60px;
+        width: 80px;
     }
 
     main {

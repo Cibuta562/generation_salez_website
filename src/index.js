@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import './fonts/BlackOpsOne-Regular.ttf'
+import './fonts/Lato-Regular.ttf'
+import './fonts/Lato-Bold.ttf'
 import reportWebVitals from './reportWebVitals';
 import UnderConstruction from "./pages/under construction";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
