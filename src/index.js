@@ -9,6 +9,7 @@ import reportWebVitals from './reportWebVitals';
 import UnderConstruction from "./pages/under construction";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Contact from "./pages/contact";
+import Boboc from "./pages/boboc";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,6 +24,7 @@ root.render(
                   <Route path="/z" element={<UnderConstruction />} />
               </Route>
               <Route path="/contact" element={<Contact />} />
+              <Route path="/boboc-robert" element={<Boboc/>} />
           </Routes>
       </BrowserRouter>
   </React.StrictMode>

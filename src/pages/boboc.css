@@ -1,0 +1,392 @@
+@media only screen and (max-width: 600px) {
+
+    .div-bg{
+        background-image: url("../assets/bg-boboc.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .social-icons a {
+        margin: 0 15px; /* Adjust spacing between icons as needed */
+    }
+
+    .social-icons{
+        padding-bottom: 10px;
+    }
+
+    .social-icons a i {
+        color: black; /* Set icon color */
+        font-size: 24px; /* Adjust icon size as needed */
+    }
+
+
+    .img-bg{
+        width: 100%;
+        background-color: #777777;
+        height: 0px;
+        background-image: url("../assets/bg-boboc.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .curve-dec{
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        height: 100px;
+        border-radius: 25%;
+        margin-top: -30px;
+    }
+
+    .picture-circle{
+        position: absolute;
+        top: 5.5vh;
+        width: 120px;
+        background-color: white;
+        border-radius: 65px;
+        margin-left: 34.5%;
+        margin-right: 34.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .picture-frame{
+        height: 110px;
+        width: 110px;
+        border: solid 4px #ffffff;
+        border-radius: 60px;
+        background-image: url("../assets/boboc.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .content-links{
+        background-color: #ffffff;
+        width: 100%;
+        border-radius: 15px;
+        height: 90vh;
+        margin-bottom: -50px;
+    }
+
+    .title-name{
+        color: black;
+        font-size: 28px;
+        font-family: Lato;
+        font-weight: 700;
+        margin: 0px;
+        padding-top: 80px;
+        border-top-right-radius: 50px;
+    }
+
+    .function-name{
+        margin: 12px;
+    }
+
+    .links-list{
+        margin-top: 40px;
+    }
+
+    .links-socials{
+        height: 50px;
+    }
+
+    .links-padding{
+        height: 50px;
+        background-color: #FAC308;
+        margin: 20px 8%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .links-p{
+        font-family: Lato;
+        font-size: 18px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .credits{
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .links-down{
+        text-decoration: none;
+        color: black;
+    }
+
+}
+
+
+
+@media (min-width: 600px) and (max-width: 1000px) {
+    .div-bg{
+        background-image: url("../assets/bg-boboc.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 180vh;
+
+    }
+
+    .social-icons a {
+        margin: 0 15px; /* Adjust spacing between icons as needed */
+    }
+
+    .social-icons{
+        padding-bottom: 10px;
+    }
+
+    .social-icons a i {
+        color: black; /* Set icon color */
+        font-size: 24px; /* Adjust icon size as needed */
+    }
+
+
+    .img-bg{
+        width: 40%;
+        background-color: #777777;
+        height: 0px;
+        background-image: url("../assets/bg-boboc.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .curve-dec{
+        background-color: rgb(255, 255, 255);
+        height: 120px;
+        width: 40%;
+        border-top-left-radius: 10px; /* Adjust the radius as needed */
+        border-top-right-radius: 10px;
+    }
+
+    .picture-circle{
+        position: absolute;
+        top: 12vh;
+        width: 120px;
+        background-color: white;
+        border-radius: 65px;
+        margin-left: 42%;
+        margin-right: 42%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .picture-frame{
+        height: 110px;
+        width: 110px;
+        border: solid 4px #ffffff;
+        border-radius: 100px;
+        background-image: url("../assets/boboc.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .content-links{
+        background-color: #ffffff;
+        width: 40%;
+        border-radius: 15px;
+        height: 150vh;
+        margin-bottom: 0px;
+        margin-top: 60px;
+    }
+
+    .title-name{
+        color: black;
+        font-size: 28px;
+        font-family: Lato;
+        font-weight: 700;
+        margin: 5px;
+        padding-top: 100px;
+    }
+
+    .function-name{
+        margin-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .links-list{
+        margin-top: 10px;
+        height: 70%;
+        border-radius: 10px;
+    }
+
+    .links-socials{
+        height: 50px;
+    }
+
+    .links-padding{
+        height: 40px;
+        background-color: #FAC308;
+        margin: 20px 8%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .links-p{
+        font-family: Lato;
+        font-size: 16px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .credits{
+        padding-top: 2px;
+        padding-bottom: 15px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        font-size: 14px;
+    }
+
+    .links-down{
+        text-decoration: none;
+        color: black;
+        width: 40%;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 1000px) {
+
+    .div-bg{
+        background-image: url("../assets/bg-boboc.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .social-icons a {
+        margin: 0 15px; /* Adjust spacing between icons as needed */
+    }
+
+    .social-icons{
+        padding-bottom: 10px;
+    }
+
+    .social-icons a i {
+        color: black; /* Set icon color */
+        font-size: 24px; /* Adjust icon size as needed */
+    }
+
+
+    .img-bg{
+        width: 40%;
+        background-color: #777777;
+        height: 0px;
+        background-image: url("../assets/bg-boboc.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .curve-dec{
+        background-color: rgb(255, 255, 255);
+        height: 120px;
+        width: 40%;
+        border-top-left-radius: 10px; /* Adjust the radius as needed */
+        border-top-right-radius: 10px;
+    }
+
+    .picture-circle{
+        position: absolute;
+        top: 1vh;
+        width: 120px;
+        background-color: white;
+        border-radius: 65px;
+        margin-left: 34.5%;
+        margin-right: 34.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .picture-frame{
+        height: 110px;
+        width: 110px;
+        border: solid 4px #ffffff;
+        border-radius: 100px;
+        background-image: url("../assets/boboc.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .content-links{
+        background-color: #ffffff;
+        width: 40%;
+        border-radius: 15px;
+        height: 90vh;
+        margin-bottom: 0px;
+    }
+
+    .title-name{
+        color: black;
+        font-size: 28px;
+        font-family: Lato;
+        font-weight: 700;
+        margin: 5px;
+        padding-top: 100px;
+    }
+
+    .function-name{
+        margin-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .links-list{
+        margin-top: 10px;
+        height: 70%;
+        border-radius: 10px;
+    }
+
+    .links-socials{
+        height: 50px;
+    }
+
+    .links-padding{
+        height: 40px;
+        background-color: #FAC308;
+        margin: 20px 8%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .links-p{
+        font-family: Lato;
+        font-size: 16px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .credits{
+        padding-top: 2px;
+        padding-bottom: 15px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        font-size: 14px;
+    }
+
+    .links-down{
+        text-decoration: none;
+        color: black;
+        width: 40%;
+    }
+
+}
